@@ -1,0 +1,39 @@
+@keyframes rot_kf {
+    from { transform: rotate(0deg); }
+    to   { transform: rotate(360deg); }
+  }
+.rot { animation: rot_kf 4s linear infinite; }
+
+.rot:hover {
+  animation-play-state: paused;
+  stroke: purple;
+  stroke-width: 1;
+  fill: lightgreen;
+  }
+
+
+rect {
+    animation: animation 10s infinite;
+  }
+
+rect:hover {
+    animation-play-state: paused;
+    fill: lightgreen;
+    stroke: purple;
+    stroke-width: 2;
+  }
+
+@keyframes animation {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(1000px);
+    }
+  }
+
+
+polygon:hover {
+    fill: white;
+    stroke: white;
+  }

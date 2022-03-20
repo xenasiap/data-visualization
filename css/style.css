@@ -75,10 +75,6 @@ h1,h2,h3,h4,h5,h6,p{
 /* ================ Navigation Menu ====================*/
 
 
-.navbar-light {
-  display: none;
-}
-
 .navbar-light .navbar-nav .nav-link {
   padding: 25px 10px;
   color: #343a40;
